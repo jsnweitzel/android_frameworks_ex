@@ -20,7 +20,7 @@ include $(CLEAR_VARS)
 # TODO: Work out if the log and android libs are needed.
 
 # Add in extra warnings.
-LOCAL_CFLAGS += -Wall
+LOCAL_CFLAGS += -Wall -fno-strict-aliasing
 LOCAL_CPPFLAGS += -Wall
 
 LOCAL_CPP_EXTENSION := .cc
